@@ -1,0 +1,9 @@
+services:
+  evaluator:
+    build: ./evaluator
+    image: evaluator-service
+    ports:
+      - "5005:5005"
+    volumes:
+      # allow the evaluator to spawn sibling containers
+      - /var/run/docker.sock:/var/run/docker.sock

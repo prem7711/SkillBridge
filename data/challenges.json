@@ -1,0 +1,452 @@
+[
+    {
+        "title": "Check Armstrong Number 1",
+        "description": "Check Armstrong Number 1. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "153",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Sort an Array 2",
+        "description": "Sort an Array 2. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "5 1 4 2 8",
+        "expectedOutput": "1 2 4 5 8"
+    },
+    {
+        "title": "Check Leap Year 3",
+        "description": "Check Leap Year 3. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "2020",
+        "expectedOutput": "Leap Year"
+    },
+    {
+        "title": "Calculate Power 4",
+        "description": "Calculate Power 4. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "2 3",
+        "expectedOutput": "8"
+    },
+    {
+        "title": "Check Anagram 5",
+        "description": "Check Anagram 5. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "listen silent",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Remove Duplicates 6",
+        "description": "Remove Duplicates 6. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "1 2 2 3",
+        "expectedOutput": "1 2 3"
+    },
+    {
+        "title": "Sum of Digits 7",
+        "description": "Sum of Digits 7. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "1234",
+        "expectedOutput": "10"
+    },
+    {
+        "title": "Binary to Decimal 8",
+        "description": "Binary to Decimal 8. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "1010",
+        "expectedOutput": "10"
+    },
+    {
+        "title": "Decimal to Binary 9",
+        "description": "Decimal to Binary 9. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "10",
+        "expectedOutput": "1010"
+    },
+    {
+        "title": "GCD of Two Numbers 10",
+        "description": "GCD of Two Numbers 10. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "12 18",
+        "expectedOutput": "6"
+    },
+    {
+        "title": "LCM of Two Numbers 11",
+        "description": "LCM of Two Numbers 11. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "12 18",
+        "expectedOutput": "36"
+    },
+    {
+        "title": "Palindrome Number 12",
+        "description": "Palindrome Number 12. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "121",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Find Second Largest 13",
+        "description": "Find Second Largest 13. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "3 5 2 9",
+        "expectedOutput": "5"
+    },
+    {
+        "title": "Sum of Array 14",
+        "description": "Sum of Array 14. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "1 2 3",
+        "expectedOutput": "6"
+    },
+    {
+        "title": "Linear Search 15",
+        "description": "Linear Search 15. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "4\n1 2 3 4\n2",
+        "expectedOutput": "2"
+    },
+    {
+        "title": "Binary Search 16",
+        "description": "Binary Search 16. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "5\n1 2 3 4 5\n3",
+        "expectedOutput": "Found at index 2"
+    },
+    {
+        "title": "Matrix Addition 17",
+        "description": "Matrix Addition 17. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "2x2\n1 2\n3 4\n5 6\n7 8",
+        "expectedOutput": "6x6 matrix result"
+    },
+    {
+        "title": "Transpose of Matrix 18",
+        "description": "Transpose of Matrix 18. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "2x2\n1 2\n3 4",
+        "expectedOutput": "2 1\n4 3"
+    },
+    {
+        "title": "Factorial using Recursion 19",
+        "description": "Factorial using Recursion 19. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "5",
+        "expectedOutput": "120"
+    },
+    {
+        "title": "Fibonacci using Recursion 20",
+        "description": "Fibonacci using Recursion 20. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "6",
+        "expectedOutput": "8"
+    },
+    {
+        "title": "Count Words in a Sentence 21",
+        "description": "Count Words in a Sentence 21. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "Hello world",
+        "expectedOutput": "2"
+    },
+    {
+        "title": "Check Pangram 22",
+        "description": "Check Pangram 22. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "The quick brown fox jumps over the lazy dog",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Find Duplicates in Array 23",
+        "description": "Find Duplicates in Array 23. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "1 2 2 3 3",
+        "expectedOutput": "2 3"
+    },
+    {
+        "title": "Reverse Words in String 24",
+        "description": "Reverse Words in String 24. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "Hello World",
+        "expectedOutput": "World Hello"
+    },
+    {
+        "title": "Check Substring 25",
+        "description": "Check Substring 25. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "hello world",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Merge Two Sorted Arrays 26",
+        "description": "Merge Two Sorted Arrays 26. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "1 3 5\n2 4 6",
+        "expectedOutput": "1 2 3 4 5 6"
+    },
+    {
+        "title": "Rotate Array 27",
+        "description": "Rotate Array 27. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "1 2 3 4 5",
+        "expectedOutput": "5 1 2 3 4"
+    },
+    {
+        "title": "Check Perfect Number 28",
+        "description": "Check Perfect Number 28. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "28",
+        "expectedOutput": "Perfect"
+    },
+    {
+        "title": "Find Common Elements 29",
+        "description": "Find Common Elements 29. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "1 2 3\n3 4 5",
+        "expectedOutput": "3"
+    },
+    {
+        "title": "Sum of Natural Numbers 30",
+        "description": "Sum of Natural Numbers 30. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "100",
+        "expectedOutput": "5050"
+    },
+    {
+        "title": "Check Harshad Number 31",
+        "description": "Check Harshad Number 31. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "18",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Generate Prime Numbers 32",
+        "description": "Generate Prime Numbers 32. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "10",
+        "expectedOutput": "2 3 5 7"
+    },
+    {
+        "title": "Check Armstrong Range 33",
+        "description": "Check Armstrong Range 33. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "100 999",
+        "expectedOutput": "153 370 371 407"
+    },
+    {
+        "title": "Remove Vowels 34",
+        "description": "Remove Vowels 34. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "education",
+        "expectedOutput": "dctn"
+    },
+    {
+        "title": "Check Case of Character 35",
+        "description": "Check Case of Character 35. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "A",
+        "expectedOutput": "Uppercase"
+    },
+    {
+        "title": "Count Consonants 36",
+        "description": "Count Consonants 36. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "hello",
+        "expectedOutput": "3"
+    },
+    {
+        "title": "Find Frequency of Characters 37",
+        "description": "Find Frequency of Characters 37. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "hello",
+        "expectedOutput": "h:1 e:1 l:2 o:1"
+    },
+    {
+        "title": "Capitalize First Letter 38",
+        "description": "Capitalize First Letter 38. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "hello world",
+        "expectedOutput": "Hello World"
+    },
+    {
+        "title": "Convert Case 39",
+        "description": "Convert Case 39. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "HeLLo",
+        "expectedOutput": "hEllO"
+    },
+    {
+        "title": "Check for Palindrome Number 40",
+        "description": "Check for Palindrome Number 40. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "121",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Sum of Even Numbers 41",
+        "description": "Sum of Even Numbers 41. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "1 2 3 4 5",
+        "expectedOutput": "6"
+    },
+    {
+        "title": "Check Automorphic Number 42",
+        "description": "Check Automorphic Number 42. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "25",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Calculate Cube 43",
+        "description": "Calculate Cube 43. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "3",
+        "expectedOutput": "27"
+    },
+    {
+        "title": "Find ASCII of Character 44",
+        "description": "Find ASCII of Character 44. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "A",
+        "expectedOutput": "65"
+    },
+    {
+        "title": "Check Spy Number 45",
+        "description": "Check Spy Number 45. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "132",
+        "expectedOutput": "Yes"
+    },
+    {
+        "title": "Print Pyramid Pattern 46",
+        "description": "Print Pyramid Pattern 46. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "easy",
+        "sampleInput": "3",
+        "expectedOutput": "*\n**\n***"
+    },
+    {
+        "title": "Print Floyd's Triangle 47",
+        "description": "Print Floyd's Triangle 47. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "3",
+        "expectedOutput": "1\n2 3\n4 5 6"
+    },
+    {
+        "title": "Print Pascal's Triangle 48",
+        "description": "Print Pascal's Triangle 48. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "3",
+        "expectedOutput": "1\n1 1\n1 2 1"
+    },
+    {
+        "title": "Sum of Diagonal in Matrix 49",
+        "description": "Sum of Diagonal in Matrix 49. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "medium",
+        "sampleInput": "3x3\n1 2 3\n4 5 6\n7 8 9",
+        "expectedOutput": "15"
+    },
+    {
+        "title": "Find Row Sum and Column Sum 50",
+        "description": "Find Row Sum and Column Sum 50. Write a program to perform the specified task.",
+        "skill": "C++, Python, JS, Java",
+        "type": "code",
+        "difficulty": "hard",
+        "sampleInput": "2x2\n1 2\n3 4",
+        "expectedOutput": "Row: 3 7, Col: 4 6"
+    }
+]
