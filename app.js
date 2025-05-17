@@ -8,6 +8,7 @@ const challengeRoutes = require('./routes/challengeRoutes');
 const submissionRoutes = require('./routes/submissionRoutes');
 const profileRoutes = require('./routes/profile');
 const recommendationRoutes = require('./routes/recommendations')
+const leaderboardRoutes = require('./routes/leaderboardRoutes');
 const app = express();
 
 const server = http.createServer(app);
@@ -31,6 +32,8 @@ app.use('/api/challenges', challengeRoutes);
 app.use('/api/submissions', submissionRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/recommendations', recommendationRoutes);
+
+app.use('/api/leaderboard', leaderboardRoutes);
 
 //app.options('*', cors(corsOptions));
 

@@ -2,16 +2,17 @@ const Submission = require('../models/Submission');
 const Challenge = require('../models/Challenge');
 const axios = require('axios');
 
+const Profile = require('../models/Profile');
 exports.submitCode = async (req, res) => {
     try {
         // console.log(req.body);
         const { challengeId, solutionCode, language } = req.body;
         const userId = req.user._id;
-        
+
         const challenge = await Challenge.findById(challengeId);
         if (!challenge) return res.status(404).json({ message: 'Challenge not found' });
 
-  
+
         console.log(req.body);
 
         // console.log(challenge);
@@ -28,9 +29,9 @@ exports.submitCode = async (req, res) => {
         // console.log(userId, challengeId, code);
 
         const socketId = req.body.socketId;
-if (!socketId) {
-  console.error("Missing socketId");
-}
+        if (!socketId) {
+            console.error("Missing socketId");
+        }
 
         // Emit "Compiling..." to the frontend
         // req.app.get('io').to(socketId).emit('stage', '⏳ Compiling...');
@@ -40,7 +41,7 @@ if (!socketId) {
             challengeId: req.body.challengeId,
             message: '⏳ Compiling...'
         });
-        
+
 
         // Call Python evaluator (running locally on port 5001)
         const response = await axios.post('http://localhost:5005/evaluate', {
@@ -67,16 +68,42 @@ if (!socketId) {
             challengeId: req.body.challengeId,
             message: '✅ Comparing output...'
         });
-        
+
 
         console.log(passed, actualOutput);
         // Emit "Comparing Output..." to the frontend
-       // req.app.get('io').to(socketId).emit('stage', '✅ Comparing output...');
+        // req.app.get('io').to(socketId).emit('stage', '✅ Comparing output...');
         submission.status = passed ? 'passed' : 'failed';
         submission.resultOutput = actualOutput;
         submission.error = error || '';
         await submission.save();
 
+
+        if (passed) {
+            console.log('no error one');
+            const profile = await Profile.findOne({ userId });
+
+            // Add challenge if not already completed
+            const alreadyCompleted = profile.completedChallenges.includes(challengeId);
+            console.log('no error');
+            if (!alreadyCompleted) {
+                console.log('error');
+                profile.completedChallenges.push(challengeId);
+
+                // Assign score based on difficulty
+                let score = 1;
+                if (challenge.difficulty === 'medium') score = 2;
+                else if (challenge.difficulty === 'hard') score = 3;
+                profile.totalScore += score;
+
+                await profile.save();
+
+                // Add badge if eligible
+                if (profile.completedChallenges.length >= 5) {
+                    await addBadge(userId, 'Challenge Master');
+                }
+            }
+        }
 
         req.app.get('io').to(socketId).emit('evaluation-complete', {
             challengeId: req.body.challengeId,
